@@ -1,0 +1,29 @@
+
+.ramas{
+    margin: 7em auto;
+    display: flex;
+    flex-direction: column;
+}
+.rama{
+    margin-top: 2em;
+    @extend %flexAround;
+    margin: 2em 50px;
+    @extend %azulYBlanco;
+    border-radius: 50px;
+    img{
+        margin-right: 3em;
+        margin-left: nth($medidas, 1);
+        margin-top: nth($medidas, 1);
+        margin-bottom: nth($medidas, 1);
+        border-radius: 50px;
+        border: darken($colorAzul, 10%) solid nth($medidas, 1);
+    }
+    p{
+        margin-right: 1em;
+        font-size: 20px;
+        text-align: justify;
+    }
+    h2{
+        font-size: 25px;
+    }
+}

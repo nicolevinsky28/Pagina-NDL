@@ -1,0 +1,46 @@
+
+.bodyApps{
+    section{
+        text-align: center;
+        margin: 7em;
+        border: $colorAzul 1em solid;
+        border-radius: 50px;
+        background-color: $colorAzul;
+
+        img{
+            float: left;
+            margin-right: 50px;
+
+        }
+        h2{
+            color: $colorBlanco;
+            font-size: 25px;
+            margin-top: 3em;
+            font-size: 3em;
+
+        }
+        p{
+            color: $colorBlanco;
+            font-size: 1.5em;
+            text-align: justify;
+            margin-bottom: 2em;
+            padding: 2em;
+        }
+        a{
+            @extend %azulYBlanco;
+            font-size: 20px;
+            @extend %bordeBlanco;
+            border-radius: 15px;
+            text-decoration: none;
+            padding: 20px;
+            float: right;
+
+            &:hover{
+                @extend %blancoYAzul;
+                @extend %bordeAzul;
+                transition: 0.5s;
+                transform: translateY(20px);
+            }
+        }
+    }
+}

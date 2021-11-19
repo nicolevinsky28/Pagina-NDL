@@ -1,0 +1,36 @@
+@import "base/font";
+@import "base/variables";
+@import "base/listas";
+@import "base/extends";
+@import "component/index/menu";
+@import "component/index/descripccion";
+@import "component/index/destacadas";
+@import "component/index/redes";
+@import "component/apps/navApp";
+@import "component/apps/desApps";
+@import "component/contacto/contacto";
+@import "component/nosotros/historia";
+@import "component/nosotros/ramas";
+@import "component/nosotros/equipo";
+@import "base/mediaQuery";
+
+/*Configuraciones de la pagina*/
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body{
+    background-color: $colorBlanco;
+    font-family: monospace;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*Menu general*/
+
+header{
+    text-align: center;
+    top: 0px;
+    width: 100%;
+
+}
+   

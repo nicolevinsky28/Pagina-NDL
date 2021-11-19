@@ -1,0 +1,25 @@
+.redes{
+    margin: 0px;
+    background-color: $colorAzul;
+    width: 100%;
+    text-align: center;
+
+    h3{
+        color: $colorBlanco;
+        font-size: 25px;
+        padding-top: 3em;
+    }
+}
+.listaRedes{
+    font-size: 25px;
+    ul{
+        list-style: none;
+        li{
+            display: inline;
+            a{
+                color: black;
+                text-decoration:currentColor black;
+            }
+        }
+    }
+}

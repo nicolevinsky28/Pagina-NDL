@@ -1,0 +1,19 @@
+.historia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3em;
+    color: $colorAzul;
+    h3{
+        margin: 1em 3em;
+        font-size: 50px;
+        border-bottom: double darken($colorAzul, 1%) 10px;
+        border-radius: 15px;
+        padding-bottom: 1em;
+    }
+    p{
+        text-align: justify;
+        margin: 0px 3em;
+        font-size: 30px;
+    }
+}

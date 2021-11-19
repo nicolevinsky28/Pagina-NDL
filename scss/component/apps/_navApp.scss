@@ -1,0 +1,29 @@
+
+.navApp{
+    margin: 7em;
+    background-color: $colorAzul;
+    @extend %bordeBlanco;
+    border-radius: 50px;
+
+    ul{
+        padding: 1em 0px;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        li{
+            display: inline-block;
+            font-size: 30px;
+            a{
+                padding: 2px;
+                text-decoration: none;
+                color: $colorBlanco;
+                @extend %bordeBlanco; 
+
+                &:hover{
+                    @extend %blancoYAzul;
+                    transition: 0.5s;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+.contacto{
+    text-align: center;
+}
+.contenedorContacto{
+    margin: 2em;
+    display: flex;
+    justify-content: space-around;
+    border: $colorAzul solid 50px;
+}
+.ilustracion{
+    img{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    width: 450px;
+    height: 550px;}
+}
+.tituloContacto{
+    font-size: 3em;
+    text-align: center;
+}
+.listaContacto{
+  margin-top: 2em;
+  ol{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+      li{
+        color: $colorAzul;
+        display: inline-block;
+        font-size: 25px;
+        margin: 3em;
+        border: $colorAzul 10px double;
+        &:hover{
+            background-color: $colorAzul;
+            border: $colorBlanco 10px double;
+        }
+          a{
+            text-decoration: none;
+            color: $colorAzul;
+            padding: 2em;
+
+            &:hover{
+               color: $colorBlanco;
+            }
+          }
+      }
+  }
+}

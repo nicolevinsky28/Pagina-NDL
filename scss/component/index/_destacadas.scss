@@ -1,0 +1,51 @@
+
+.destacadas{
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 1em;
+    text-align: center;
+
+    h3{
+        color: $colorAzul;
+        padding-top: 1em;
+        font-size: 4em;
+        margin: 1em;
+        border-bottom: 5px $colorAzul solid;
+    }
+}
+
+.app{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    div{
+        @extend %flexAround;
+        flex-direction: column;
+        padding: 2em;
+        border: $colorBlanco 10px double; 
+        border-radius: 50px;
+        margin-bottom: 4em;
+        background-color: $colorAzul;
+        img{
+            display: flex;
+            align-items: center;
+            width: 250px;
+            height: 250px;
+
+        }
+        h2{
+            color: $colorBlanco;
+            font-size: 30px;
+            border-bottom: solid 5px $colorBlanco;
+            padding-top: 20px;
+        }
+        &:hover{
+            transform: rotate(3deg);
+            transition: 0.5s;
+            background-color:$colorAzul; 
+        }
+    }
+}

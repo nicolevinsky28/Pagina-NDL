@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+    top: 0px;
+    width: 100%;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    @extend %blancoYAzul;
+    position: relative;
+
+    h1{
+        font-size: 30px;
+        font-family: fantasy;
+        align-self:center;
+    }
+    
+    ul{
+        @extend %flexAround;
+        text-align: center;
+        list-style: none;
+        display: inline-block;
+        margin-top: 30px;
+        li{
+            padding: 30px;
+            display: inline;
+            a{
+                text-decoration: none;
+                color: $colorAzul;
+                border: solid $colorAzul 2px;
+
+                &:hover{
+                    background-color: $colorAzul;
+                    color: $colorBlanco;
+                    transition: 0.5s;
+                }
+
+            }
+        }
+    }
+
+}
+.logoText{
+    @extend %flexAround;
+}
+.logoText img{
+    margin-left: 1.5em;
+    margin-right: 0.7em;
+}

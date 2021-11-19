@@ -1,0 +1,24 @@
+
+%azulYBlanco{
+    background-color: $colorAzul;
+    color: $colorBlanco;
+}
+
+%blancoYAzul{
+    background-color: $colorBlanco;
+    color: $colorAzul;
+}
+%bordeAzul{
+    border: solid $colorAzul 5px;   
+}
+%bordeBlanco{
+    border: solid $colorBlanco 5px;   
+}
+%flexAround{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
