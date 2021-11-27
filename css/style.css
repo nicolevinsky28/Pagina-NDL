@@ -152,28 +152,89 @@ header {
   background-color: #0E2430;
 }
 
-.redes {
+.footer {
   margin: 0px;
   background-color: #0E2430;
   width: 100%;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.redes {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .redes h3 {
   color: #E8D5B7;
-  font-size: 25px;
-  padding-top: 3em;
+  font-size: 20px;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  margin: 5px;
 }
 
-.listaRedes {
-  font-size: 25px;
-}
 .listaRedes ul {
+  padding: 0px;
   list-style: none;
 }
 .listaRedes ul li {
-  display: inline;
+  padding-bottom: 5px;
 }
 .listaRedes ul li a {
+  color: black;
+  text-decoration: currentColor black;
+}
+
+.info {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info h3 {
+  color: #E8D5B7;
+  font-size: 20px;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  margin: 5px;
+}
+
+.listaInfo ul {
+  padding: 0px;
+  list-style: none;
+}
+.listaInfo ul li {
+  padding-bottom: 5px;
+}
+.listaInfo ul li a {
+  color: black;
+  text-decoration: currentColor black;
+}
+
+.store {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.store h3 {
+  color: #E8D5B7;
+  font-size: 20px;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  margin: 5px;
+}
+
+.listaTiendas ul {
+  padding: 0px;
+  list-style: none;
+}
+.listaTiendas ul li {
+  padding-bottom: 5px;
+}
+.listaTiendas ul li a {
   color: black;
   text-decoration: currentColor black;
 }
@@ -217,6 +278,7 @@ header {
   color: #E8D5B7;
   font-size: 25px;
   margin-top: 3em;
+  margin-bottom: 1em;
   font-size: 3em;
 }
 .bodyApps section p {
@@ -334,6 +396,8 @@ header {
   text-align: justify;
 }
 .rama h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
   font-size: 25px;
 }
 
@@ -367,6 +431,21 @@ header {
 
 .item-d {
   grid-column: 3/5;
+}
+
+/*politicas*/
+.politica {
+  text-align: center;
+  background-color: #0E2430;
+  margin: 7em 3em;
+  text-align: justify;
+}
+.politica h1 {
+  font-size: 30px;
+  color: #E8D5B7;
+}
+.politica p {
+  color: #E8D5B7;
 }
 
 @media screen and (max-width: 480px) {
@@ -548,8 +627,7 @@ header {
 }
 /*Configuraciones de la pagina*/
 * {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0px;
 }
 
 body {

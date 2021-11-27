@@ -12,12 +12,13 @@
 @import "component/nosotros/historia";
 @import "component/nosotros/ramas";
 @import "component/nosotros/equipo";
+@import "component/info/politicas";
 @import "base/mediaQuery";
+
 
 /*Configuraciones de la pagina*/
 *{
-    margin-left: 0px;
-    margin-right: 0px;
+    margin:0px;
 }
 
 body{
