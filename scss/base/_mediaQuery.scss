@@ -103,6 +103,13 @@
             }
         }
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .store, .info, .redes{
+        padding: 1em;
+    }
 }
 /*CONTACTO.HTML*/
 @media screen and (max-width: 1100px){

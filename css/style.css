@@ -38,7 +38,7 @@ header {
 }
 .menu h1 {
   font-size: 30px;
-  font-family: fantasy;
+  font-family: "Ubuntu", sans-serif;
   align-self: center;
 }
 .menu ul {
@@ -162,6 +162,7 @@ header {
 }
 
 .redes {
+  padding: 4em;
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -188,6 +189,7 @@ header {
 }
 
 .info {
+  padding: 4em;
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -214,6 +216,7 @@ header {
 }
 
 .store {
+  padding: 4em;
   font-size: 20px;
   display: flex;
   flex-direction: column;
@@ -553,6 +556,15 @@ header {
     font-size: 1em;
     text-align: justify;
     margin-bottom: 2em;
+    padding: 1em;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .store, .info, .redes {
     padding: 1em;
   }
 }
